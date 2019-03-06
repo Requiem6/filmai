@@ -12,4 +12,10 @@ $data = $stmt -> fetchAll ();
 $pdo = null;
 
 ?>
+<select>
+    <?php foreach($data as $item):?>
+    <option><?=$item['id'];?></option>
+
+</select>
+<?php endforeach;?>
 
