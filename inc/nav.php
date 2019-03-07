@@ -1,11 +1,12 @@
 <?php
 $nav = array(
-    "home" => "Pradinis puslapis",
-    "all" => "visi filmai",
-    "genre" => "filmai pagal zanra",
-    "search" => "filmo paieska",
-    "stat" => "statistika",
-    "add-movie" => "prideti filma",
-    "manage-genres" => "Tvarkyti zanrus",
-    "manage-movies" => "tvarkyti filmus"
+    "home" => "home",
+    "all" => "all movies",
+    "genre" => "genres",
+    "search" => "search",
+    "stat" => "statistics",
+    "add-movie" => "add a movie",
+    "manage-genres" => "manage genres",
+    "manage-movies" => "manage movies",
+    "delete"  => "delete"
 );
