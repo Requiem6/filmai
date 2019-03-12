@@ -23,10 +23,8 @@ $pdo = null;
             <td><?=$item['genre'];?></td>
             <td><?=$item['release_date'];?></td>
             <td><?=$item['description'];?></td>
-            <td> <a href="?page=delete" class="list-group-item list-group-item-action bg-light">istrinti</a></td>
+            <td><a class="" href="pages/delete.php?">Delete</a></td>
         </tr>
 
     <?php endforeach;?>
 </table>
-<button>lol</button>
-<button type="submit" name="delete" value="Delete Data">delete</button>

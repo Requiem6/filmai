@@ -20,6 +20,7 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="?page=add-movie">Prideti nauja filma</a>
                     <a class="dropdown-item" href="?page=manage-genres">Tvarkyti zanrus</a>
+                    <a class="dropdown-item" href="?page=delete">delete</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="?page=manage-movies">tvarkyti filmus</a>
                 </div>

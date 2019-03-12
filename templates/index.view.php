@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-<?php include "inc/router.php"?>
+<?php include "../inc/router.php"?>
   <title>xd movies</title>
 
     <!-- Bootstrap core CSS -->
@@ -24,7 +24,7 @@
         <div id="page-content-wrapper">
 
             <?php include "_partials/nav.view.php";?>
-            <?php include "inc/router.php"?>
+            <?php include "../inc/router.php"?>
             <div class="container-fluid">
                 <h1><?siteTitle?></h1>
             <?php include $includePath?>
