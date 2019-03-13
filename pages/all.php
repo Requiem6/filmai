@@ -21,6 +21,8 @@ $pdo = null;
         <td><?=$item['genre'];?></td>
         <td><?=$item['release_date'];?></td>
         <td><?=$item['description'];?></td>
+        <td><a href="?page=delete&mid=<?=$item['mid']?>">Ištrinti</a></td>
+        <td><a href="?page=update&id=<?=$item['id']?>">edit</a></td>
 
     </tr>
     <?php endforeach;?>
