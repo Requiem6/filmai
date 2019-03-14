@@ -5,7 +5,7 @@ if (isset($_POST["submit"])) {
     try {
         $pdo = new PDO($dsn, $user, $pass, $options);
     } catch (Exception $e) {
-        echo 'Negaliu prisijungti prie DB<br>';
+        echo 'can not connect to db<br>';
         echo $e->getMessage();
         exit;
     }
@@ -15,12 +15,12 @@ if (isset($_POST["submit"])) {
         $q->bindValue(':keyword','%'.$keyword.'%');
         $q->execute();
     } catch (Exception $e) {
-        echo 'Klaida: Negaliu gauti duomenų iš DB';
+        echo 'cannot recieve data from db';
         exit;
     }
     $data = $q->fetchAll();
     if (empty($data)){
-        echo "Filmas nerastas";
+        echo "not found";
     }
 }
 ?>

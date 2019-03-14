@@ -9,5 +9,5 @@ $nav = array(
     "manage-genres" => "manage genres",
     "manage-movies" => "manage movies",
     "delete"  => "delete",
-    "update" =>"update"
+    "login" =>"login"
 );

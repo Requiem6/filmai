@@ -5,7 +5,7 @@ try {
     $stmt = $pdo->query( 'SELECT * FROM genres');
 
 } catch (Exception $e) {
-    echo("klaida");
+    echo("error");
 }
 $data = $stmt -> fetchAll ();
 
